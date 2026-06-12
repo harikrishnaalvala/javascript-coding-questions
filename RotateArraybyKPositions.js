@@ -1,4 +1,5 @@
-Right Rotation
+// Right Rotation
+
 const arr = [1, 2, 3, 4, 5];
 const k = 2;
 
@@ -7,10 +8,12 @@ const result = [
   ...arr.slice(0, arr.length - k)
 ];
 
-console.log(result);
-Output
-[4, 5, 1, 2, 3]
-Without Inbuilt Methods
+console.log(result); // [4, 5, 1, 2, 3]
+
+
+
+// Without Inbuilt Methods
+
 function rotate(arr, k) {
   k = k % arr.length;
 
@@ -27,4 +30,4 @@ function rotate(arr, k) {
   return arr;
 }
 
-console.log(rotate([1,2,3,4,5], 2));
+console.log(rotate([1,2,3,4,5], 2)); // [4, 5, 1, 2, 3]
