@@ -10,3 +10,5 @@ for (let num of arr) {
 
 console.log("Largest:", largest);
 console.log("Smallest:", smallest);
+/* Largest: 20
+Smallest: 3 */
