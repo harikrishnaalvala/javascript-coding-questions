@@ -5,4 +5,4 @@ k = k % arr.length;
 
 let result = arr.slice(k).concat(arr.slice(0, k));
 
-console.log(result);
+console.log(result); // [3, 4, 5, 1, 2]
