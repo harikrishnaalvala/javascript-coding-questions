@@ -4,4 +4,4 @@ let n = 5;
 let expectedSum = (n * (n + 1)) / 2;
 let actualSum = arr.reduce((sum, num) => sum + num, 0);
 
-console.log(expectedSum - actualSum);
+console.log(expectedSum - actualSum); // 5
