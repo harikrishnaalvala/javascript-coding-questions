@@ -12,4 +12,4 @@ const params = {
     city: "New York"
 };
 
-console.log(objectToQueryString(params));
+console.log(objectToQueryString(params)); // name=John&age=25&city=New%20York
