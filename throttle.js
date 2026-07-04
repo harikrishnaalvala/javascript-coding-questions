@@ -19,3 +19,7 @@ const throttledLog = throttle(logMessage, 2000);
 setInterval(() => {
     throttledLog();
 }, 500);
+
+// Output:
+
+// Executed every 2 seconds
