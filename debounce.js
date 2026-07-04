@@ -20,3 +20,7 @@ debouncedSearch("H");
 debouncedSearch("He");
 debouncedSearch("Hel");
 debouncedSearch("Hello");
+
+// Output after 500ms:
+
+// Searching: Hello
