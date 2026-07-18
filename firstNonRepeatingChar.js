@@ -13,4 +13,4 @@ function firstNonRepeatingChar(string){
 }
 const string="amazon"
 const result=firstNonRepeatingChar(string)
-console.log(result)
+console.log(result) // m
