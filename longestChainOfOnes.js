@@ -13,4 +13,4 @@ function longestChainOfOnes(arr){
 }
 const arr=[0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0]
 const result=longestChainOfOnes(arr)
-console.log(result)
+console.log(result) // 3
