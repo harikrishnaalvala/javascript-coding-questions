@@ -19,4 +19,4 @@ function charWithFrequency(string){
 }
 const string="aaabbaccd"
 const result=charWithFrequency(string)
-console.log(result)
+console.log(result) // a3b2a1c2d1
