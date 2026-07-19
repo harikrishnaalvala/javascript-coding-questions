@@ -22,4 +22,4 @@ function printPrimes(start, end) {
 
 // Example
 let result=printPrimes(10, 30);
-console.log(result)
+console.log(result) // [ 11,13,17,19,23,29 ]
