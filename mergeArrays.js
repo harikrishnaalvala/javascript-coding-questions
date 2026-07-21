@@ -20,4 +20,4 @@ function mergeArrays(arr1, arr2) {
 const arr1 = [1, 2, 3, 4];
 const arr2 = ['a', 'b'];
 
-console.log(mergeArrays(arr1, arr2));
+console.log(mergeArrays(arr1, arr2)); // [1, 'a', 2, 'b', 3, 4]
