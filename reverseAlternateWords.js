@@ -10,4 +10,4 @@ function reverseAlternateWords(str) {
 
 // Example
 const input = "i.like.this.programme.very.much";
-console.log(reverseAlternateWords(input));
+console.log(reverseAlternateWords(input)); // i.ekil.this.emmargorp.very.hcum
