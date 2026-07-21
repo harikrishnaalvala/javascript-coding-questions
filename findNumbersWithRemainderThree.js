@@ -6,4 +6,4 @@ function findNumbersWithRemainderThree(nums) {
 const inputArray = [7, 17, 5, 45];
 const output = findNumbersWithRemainderThree(inputArray);
 
-console.log("Output:", output);
+console.log("Output:", output); // Output: [17, 45]
