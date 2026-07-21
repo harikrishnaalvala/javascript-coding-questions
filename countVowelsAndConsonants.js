@@ -20,3 +20,5 @@ function countVowelsAndConsonants(str) {
 
 // Example
 countVowelsAndConsonants("Hello World");
+// Vowel Count: 3
+// Consonant Count: 7
