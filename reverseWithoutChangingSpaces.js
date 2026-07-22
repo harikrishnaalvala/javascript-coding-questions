@@ -20,4 +20,4 @@ function reverseWithoutChangingSpaces(str) {
 
 // Example
 const input = "a bc def g";
-console.log(reverseWithoutChangingSpaces(input));
+console.log(reverseWithoutChangingSpaces(input)); // g fe dcb a
