@@ -16,3 +16,6 @@ function separateDigitsAndStrings(arr) {
 
 const arr = [1, "a", 2, "b", 3, "hello", 4, "world"];
 separateDigitsAndStrings(arr);
+
+// Numbers: [1, 2, 3, 4]
+// Strings: ["a", "b", "hello", "world"]
