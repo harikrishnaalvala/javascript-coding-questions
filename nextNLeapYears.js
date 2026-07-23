@@ -5,19 +5,18 @@ function isLeapYear(year) {
 function nextNLeapYears(startYear, n) {
     let count = 0;
     let year = startYear + 1;
+    let result = [];
 
     while (count < n) {
         if (isLeapYear(year)) {
-            process.stdout.write(year + " ");
+            result.push(year);
             count++;
         }
         year++;
     }
+
+    console.log(result.join(", "));
 }
 
 // Example
-const inputYear = 2000;
-const n = 5;
-
-console.log("Output:");
-nextNLeapYears(inputYear, n); // 2004, 2008, 2012, 2016, 2020
+nextNLeapYears(2000, 5); // 2004, 2008, 2012, 2016, 2020
