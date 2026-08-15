@@ -15,4 +15,4 @@ function twoSum(arr, target) {
     return pairs;
 }
 
-console.log(twoSum([1, 2, 3, 4, 5, 6], 7));
+console.log(twoSum([1, 2, 3, 4, 5, 6], 7)); // [ [4, 3], [5, 2], [6, 1] ]
