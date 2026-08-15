@@ -14,4 +14,4 @@ function moveHyphens(arr) {
     return result;
 }
 
-console.log(moveHyphens(['a', 'b', '-', 'c', '-', '-', 'd', '-']));
+console.log(moveHyphens(['a', 'b', '-', 'c', '-', '-', 'd', '-'])); // ['a', 'b', 'c', 'd', '-', '-', '-', '-']
