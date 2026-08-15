@@ -18,3 +18,4 @@ console.log(
     "Sum of numbers divisible by both 3 and 5 between 1 and 1000:",
     result
 );
+// Sum of numbers divisible by both 3 and 5 between 1 and 1000: 33165
